@@ -1,0 +1,13 @@
+#navBar {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+
+  nav {
+    position: fixed;
+  }
+  label {
+    color: white;
+    margin: 2rem;
+  }
+}

@@ -1,0 +1,95 @@
+section {
+  width: 100%;
+  min-height: 80dvh;
+  max-height: 500px;
+  display: flex;
+  .Wraper {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    #Intro {
+      h1 {
+        word-spacing: 0.4rem;
+        color: var(--white);
+        font-size: 1.5rem;
+      }
+
+      #name label {
+        color: var(--main-Text);
+        font-size: 2.5rem;
+      }
+      #contact{
+        margin-top: 2rem;
+      }
+      #contact label {
+        color: var(--main-Text);
+        border: 2px var(--main-Text) solid;
+        padding: 0.5rem;
+        border-radius: 5px;
+        
+      }
+      #contact label:hover {
+        background-color: var(--main-Text);
+        color: var(--primary-color);
+        cursor: pointer;
+      }
+    }
+    .profile {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .image img {
+        mix-blend-mode: lighten;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+      }
+      #links {
+        height: 85%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+
+        div {
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+          margin: 0.5rem;
+        }
+        .stik {
+          width: 0px;
+          height: 7rem;
+          border: 1px var(--main-Text) solid;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}
+
+.About{
+    color: var(--white);
+    h1{
+        font-size: 1.5rem;
+    }
+    #DescriptionWraper{
+        display: flex;
+
+        div {
+            width: 25ch;
+            min-width: 10px;
+            border: 1px var(--main-Text) solid;
+            height: 0;
+           
+        }
+        p{
+            text-align: left;
+        }
+    }
+
+}
