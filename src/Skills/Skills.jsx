@@ -8,7 +8,7 @@ import TailWind from './Asset/TailWind.jsx';
 import Bootstrap from './Asset/Bootstrap.jsx';
 
 const skills = {
-  "react Js": ReactLogo,
+  "React Js": ReactLogo,
   javascript: JavaScript,
   html: Html,
   css: Css,

@@ -45,7 +45,7 @@ function About() {
         </div>
       </article>
       <div className="About">
-        <h1>About Me</h1>
+        <h1>About</h1>
         <div id="DescriptionWraper">
           <div></div>
           <p>

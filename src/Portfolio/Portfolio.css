@@ -1,4 +1,4 @@
-.Wrapper {
+.portfolio-Wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -9,6 +9,7 @@
   h1 {
     color: var(--white);
     font-size: 1.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
   }
   .container {
@@ -17,15 +18,81 @@
     justify-content: center;
     max-width: 85%;
     .project {
-      display: flex;
-      width: 30ch;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      width: 25ch;
+      height: 25ch;
       background-color: var(--Skill-card-color);
-      padding: 2rem;
-      margin: 0.5rem;
+      color: var(--white);
       text-align: center;
+      position: relative;
+      margin: 1.5rem;
+      display: grid;
+      overflow: hidden;
+      transition: transform 500ms ease;
+
+      .project-content {
+        place-self: center;
+        padding: 1.5rem;
+        z-index: 3;
+        transform: translateY(30%);
+        transition: transform 500ms ease;
+        .description {
+          font-size: 1.4rem;
+        }
+        .btn {
+          width: fit-content;
+
+          padding: 0.5rem;
+          border-radius: 5px;
+          background-color: var(--main-Text);
+          border: 1px var(--primary-color) solid;
+          color: var(--primary-color);
+          margin-top: 1rem;
+        }
+      }
+      .project-content > * {
+        opacity: 0;
+        transition: opacity 500ms linear;
+      }
+    }
+    .project::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background-color: rgba(87, 87, 87, 0.719); /* Adjust color and opacity */
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: width 0.4s ease, height 0.4s ease, opacity 0.4s ease;
+      z-index: 0;
+    }
+    .project:hover,
+    .project:focus-within {
+      transform: scale(1.03);
+    }
+    .project:hover .project::after,
+    .project:focus-within .project::after {
+      width: 200%; /* grows to cover icon */
+      height: 200%;
+      opacity: 0.5; /* reduce base icon opacity */
+    }
+    .project:hover::after,
+    .project:focus-within::after {
+      width: 200%; /* grows to cover icon */
+      height: 200%;
+      opacity: 1;
+    }
+
+    .project:hover .project-content,
+    .project:focus-within .project-content {
+      transform: translateY(0);
+    }
+
+    .project:hover .project-content > *,
+    .project:focus-within .project-content > * {
+      opacity: 1;
     }
   }
 }
