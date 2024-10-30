@@ -3,6 +3,8 @@
   --test-color: #443F43;
   --Third-color:#464044;
   --secondary-color: #E9E9E9;
+  --Skill-card-color: #3D3E42;
+  --main-back-ground-color: #34353A;
   --gray: #b5b5b6;
   --fade: #646568;
   --main-Text: #F7CA6B;
@@ -21,7 +23,7 @@
 
 
 body{
-  background-color: var(--Third-color);
+  background-color: var(--primary-color);
   padding: 1.6rem;
   font-size: 1.175rem;
 }

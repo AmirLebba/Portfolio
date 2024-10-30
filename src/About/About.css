@@ -74,11 +74,15 @@ section {
 
 .About{
     color: var(--white);
+    padding: 2.5rem 3.5rem 0 3.5rem;
     h1{
         font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     #DescriptionWraper{
         display: flex;
+        align-items:baseline;
+        margin-bottom: 1rem;
 
         div {
             width: 25ch;

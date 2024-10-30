@@ -21,7 +21,7 @@ function About() {
           </div>
           <div className="profile">
             <div className="image">
-              <img src={ProfileImg} alt="Profile image" />
+              <img src={ProfileImg} alt="Profile " />
             </div>
             <div id="links">
               <div className="stik"> </div>
