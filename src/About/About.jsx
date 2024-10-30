@@ -8,7 +8,7 @@ import WhatsApp from "./logos/WhatsApp.jsx";
 function About() {
   return (
     <>
-      <section>
+      <article>
         <div className="Wraper">
           <div id="Intro">
             <h1 id="name">
@@ -43,8 +43,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div></div>
-      </section>
+      </article>
       <div className="About">
         <h1>About Me</h1>
         <div id="DescriptionWraper">
