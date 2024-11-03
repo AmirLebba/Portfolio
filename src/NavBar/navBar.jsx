@@ -2,7 +2,7 @@ import "./navBar.css"
 
 function NavBar() {
     return (
-        <selection id="navBar">
+        <nav id="navBar">
             <nav>
                
                     <label>About</label>
@@ -10,7 +10,7 @@ function NavBar() {
                     <label>Contact</label>
                 
             </nav>
-        </selection>
+        </nav>
     )   
    
     

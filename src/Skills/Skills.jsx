@@ -20,7 +20,7 @@ const skills = {
 function Skills() {
   return (
     <>
-      <article className="Wrapper">
+      <section className="Wrapper">
         <h1> My Skills </h1>
         <div className="container">
           {Object.entries(skills).map(([key, Component]) => (
@@ -30,7 +30,7 @@ function Skills() {
             </div>
           ))}
         </div>
-      </article>
+      </section>
     </>
   );
 }

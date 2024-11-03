@@ -1,8 +1,12 @@
-article {
+.About-Wrapper {
   width: 100%;
-  min-height: 80dvh;
+  min-height: 100dvh;
   max-height: fit-content;
   display: flex;
+  background-color: var(--primary-color);
+  box-shadow: 1px 15px 18px 0px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: 1px 15px 18px 0px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 1px 15px 18px 0px rgba(0, 0, 0, 0.14);
   .Wraper {
     width: 100%;
 
@@ -20,7 +24,7 @@ article {
         color: var(--main-Text);
         font-size: 2.5rem;
       }
-      #contact{
+      #contact {
         margin-top: 2rem;
       }
       #contact label {
@@ -28,7 +32,6 @@ article {
         border: 2px var(--main-Text) solid;
         padding: 0.5rem;
         border-radius: 5px;
-        
       }
       #contact label:hover {
         background-color: var(--main-Text);
@@ -72,28 +75,30 @@ article {
   }
 }
 
-.About{
-    color: var(--white);
-    padding: 2.5rem 3.5rem 0 3.5rem;
-    margin-bottom: 4.5rem;
-    h1{
-        margin-bottom: 1rem;
-    }
-    #DescriptionWraper{
-        display: flex;
-        align-items:baseline;
-        margin-bottom: 1rem;
+.About {
+  color: var(--white);
+  padding: 2.5rem 3.5rem 3.5rem 3.5rem;
+  box-shadow: -1px 13px 17px 1px rgba(0, 0, 0, 0.15) inset;
+  -webkit-box-shadow: -1px 13px 17px 1px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: -1px 13px 17px 1px rgba(0, 0, 0, 0.15) inset;
 
-        div {
-            width: 25ch;
-            min-width: 10px;
-            border: 1px var(--main-Text) solid;
-            height: 0;
-           
-        }
-        p{
-            text-align: left;
-        }
-    }
+  background-color: var(--secondary-color);
+  h1 {
+    margin-bottom: 1rem;
+  }
+  #DescriptionWraper {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
 
+    div {
+      width: 25ch;
+      min-width: 10px;
+      border: 1px var(--main-Text) solid;
+      height: 0;
+    }
+    p {
+      text-align: left;
+    }
+  }
 }

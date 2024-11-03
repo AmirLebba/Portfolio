@@ -2,10 +2,8 @@
   display: flex;
   justify-content: center;
   height: 25px;
+  background-color: var(--primary-color);
 
-  nav {
-    
-  }
   label {
     color: white;
     margin: 2rem;
