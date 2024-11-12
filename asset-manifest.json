@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.14d75a6a.css",
+    "main.js": "/Portfolio/static/js/main.2fe4ab85.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Capture.PNG": "/Portfolio/static/media/Capture.50d67e29b9162695abf6.PNG",
+    "static/media/survey-form-background.jpeg": "/Portfolio/static/media/survey-form-background.4d9cc04f0a3871ff756b.jpeg",
+    "static/media/q5mhmif1tc0d9lpfaapz.jpg": "/Portfolio/static/media/q5mhmif1tc0d9lpfaapz.9ced2e42d31862814053.jpg",
+    "static/media/lpjh2nrqlvjzitl4hlhx.jpg": "/Portfolio/static/media/lpjh2nrqlvjzitl4hlhx.84e609ecdfdaee52aebf.jpg",
+    "static/media/edhwnh0nvy7vyhejeccf.jpg": "/Portfolio/static/media/edhwnh0nvy7vyhejeccf.d6e5c14b9c151295e962.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.14d75a6a.css.map": "/Portfolio/static/css/main.14d75a6a.css.map",
+    "main.2fe4ab85.js.map": "/Portfolio/static/js/main.2fe4ab85.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14d75a6a.css",
+    "static/js/main.2fe4ab85.js"
+  ]
+}
