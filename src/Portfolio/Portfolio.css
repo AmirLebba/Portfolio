@@ -6,93 +6,105 @@
   justify-content: flex-start;
   align-items: center;
   background-color: var(--secondary-color);
-  h1 {
-    color: var(--white);
-    font-size: 3.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 85%;
-    .project {
-      width: 25ch;
-      height: 25ch;
-      background-color: var(--Skill-card-color);
-      color: var(--white);
-      text-align: center;
-      position: relative;
-      margin: 1.5rem;
-      display: grid;
-      overflow: hidden;
-      transition: transform 500ms ease;
+}
 
-      .project-content {
-        place-self: center;
-        padding: 1.5rem;
-        z-index: 3;
-        transform: translateY(30%);
-        transition: transform 500ms ease;
-        .description {
-          font-size: 1.4rem;
-        }
-        .btn {
-          width: fit-content;
+.portfolio-Wrapper h1 {
+  color: var(--white);
+  font-size: 3.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
 
-          padding: 0.5rem;
-          border-radius: 5px;
-          background-color: var(--main-Text);
-          border: 1px var(--primary-color) solid;
-          color: var(--primary-color);
-          margin-top: 1rem;
-        }
-      }
-      .project-content > * {
-        opacity: 0;
-        transition: opacity 500ms linear;
-      }
-    }
-    .project::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 0;
-      height: 0;
-      background-color: rgba(87, 87, 87, 0.719); /* Adjust color and opacity */
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-      opacity: 0;
-      transition: width 0.4s ease, height 0.4s ease, opacity 0.4s ease;
-      z-index: 0;
-    }
-    .project:hover,
-    .project:focus-within {
-      transform: scale(1.03);
-    }
-    .project:hover .project::after,
-    .project:focus-within .project::after {
-      width: 200%; /* grows to cover icon */
-      height: 200%;
-      opacity: 0.5; /* reduce base icon opacity */
-    }
-    .project:hover::after,
-    .project:focus-within::after {
-      width: 200%; /* grows to cover icon */
-      height: 200%;
-      opacity: 1;
-    }
+.portfolio-Wrapper .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 85%;
+}
 
-    .project:hover .project-content,
-    .project:focus-within .project-content {
-      transform: translateY(0);
-    }
+.portfolio-Wrapper .container .project {
+  width: 25ch;
+  height: 25ch;
+  background-color: var(--Skill-card-color);
+  color: var(--white);
+  text-align: center;
+  position: relative;
+  margin: 1.5rem;
+  display: grid;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+.project-content h1 {
+  font-size: 1.6rem;
+}
 
-    .project:hover .project-content > *,
-    .project:focus-within .project-content > * {
-      opacity: 1;
-    }
-  }
+.portfolio-Wrapper .container .project .project-content {
+  place-self: center;
+  padding: 1.5rem;
+  z-index: 3;
+  transform: translateY(30%);
+  transition: transform 500ms ease;
+}
+
+.portfolio-Wrapper .container .project .project-content .description {
+  font-size: 1.4rem;
+}
+
+.portfolio-Wrapper .container .project .project-content .btn {
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--main-Text);
+  border: 1px var(--primary-color) solid;
+  color: var(--primary-color);
+  margin-top: 1rem;
+}
+
+.portfolio-Wrapper .container .project .project-content > * {
+  opacity: 0;
+  transition: opacity 500ms linear;
+}
+
+.portfolio-Wrapper .container .project::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: rgba(87, 87, 87, 0.719); /* Adjust color and opacity */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: width 0.4s ease, height 0.4s ease, opacity 0.4s ease;
+  z-index: 0;
+}
+
+.portfolio-Wrapper .container .project:hover,
+.portfolio-Wrapper .container .project:focus-within {
+  transform: scale(1.03);
+}
+
+.portfolio-Wrapper .container .project:hover .project::after,
+.portfolio-Wrapper .container .project:focus-within .project::after {
+  width: 200%;
+  height: 200%;
+  opacity: 0.5;
+}
+
+.portfolio-Wrapper .container .project:hover::after,
+.portfolio-Wrapper .container .project:focus-within::after {
+  width: 200%;
+  height: 200%;
+  opacity: 1;
+}
+
+.portfolio-Wrapper .container .project:hover .project-content,
+.portfolio-Wrapper .container .project:focus-within .project-content {
+  transform: translateY(0);
+}
+
+.portfolio-Wrapper .container .project:hover .project-content > *,
+.portfolio-Wrapper .container .project:focus-within .project-content > * {
+  opacity: 1;
 }

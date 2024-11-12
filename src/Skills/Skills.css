@@ -6,34 +6,38 @@
   width: fit-content;
   min-height: fit-content;
   background-color: var(--secondary-color);
-  h1 {
-    color: var(--white);
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-  }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 85%;
+}
 
-    .skill {
-      display: flex;
-      width: 16ch;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: var(--Skill-card-color);
-      padding: 2rem;
-      margin: 0.5rem;
-      text-align: center;
-      svg {
-        width: 3rem;
-      }
-      p {
-        color: var(--white);
-        margin-top: 1rem;
-      }
-    }
-  }
+.Wrapper h1 {
+  color: var(--white);
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.Wrapper .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 85%;
+}
+
+.Wrapper .container .skill {
+  display: flex;
+  width: 16ch;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Skill-card-color);
+  padding: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.Wrapper .container .skill svg {
+  width: 3rem;
+}
+
+.Wrapper .container .skill p {
+  color: var(--white);
+  margin-top: 1rem;
 }

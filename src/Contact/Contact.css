@@ -4,122 +4,115 @@
   background-color: var(--secondary-color);
   width: 100%;
   height: 100%;
+}
 
-  .links-wraper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    overflow: hidden;
+.contactMe-Wrapper .links-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
 
-    .line {
-      border: 1px var(--main-Text) solid;
-      min-width: 100%;
-      height: 0;
-    }
+.contactMe-Wrapper .links-wraper .line {
+  border: 1px var(--main-Text) solid;
+  min-width: 100%;
+  height: 0;
+}
 
-    
-  }
+.contactMe-Wrapper fieldset {
+  width: 100%;
+  border: 2px var(--main-Text) solid;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  background: var(--Fourth-color);
+  position: relative;
+}
 
-  fieldset {
-    width: 100%;
-    border: 2px var(--main-Text) solid;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    background: var(--Fourth-color);
-    position: relative;
+.contactMe-Wrapper fieldset legend {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 2rem;
+  color: var(--white);
+  margin-top: -1.5rem;
+}
 
-    
-    legend {
-      text-align: center;
-      font-size: 3rem;
-      padding: 0 2rem;
-      color: var(--white);
-      margin-top: -1.5rem; 
-      
-    }
+.contactMe-Wrapper fieldset .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  background-color: var(--Third-color);
+}
 
-    .box {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding: 2rem;
-      padding-bottom: 4rem;
-      background-color: var(--Third-color);
+.contactMe-Wrapper fieldset .box .content {
+  max-width: 28ch;
+  width: 100%;
+  min-height: 5ch;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+}
 
-      .content {
-        max-width: 28ch;
-        width: 100%;
-        min-height: 5ch;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 0.5rem;
-        background-color: var(--primary-color);
+.contactMe-Wrapper fieldset .box .content .logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-        .logos {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
+.contactMe-Wrapper fieldset .box .content #text {
+  font-size: 1.7rem;
+  color: var(--main-Text);
+}
 
-        #text {
-          font-size: 1.7rem;
-          color: var(--main-Text);
-        }
-      }
-    }
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      height: 2px;
-      background-color: var(--main-Text);
-    }
+.contactMe-Wrapper fieldset::before,
+.contactMe-Wrapper fieldset::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--main-Text);
+}
 
-    &::before {
-      left: 0;
-      width: 40%; /* Left half of the bottom border */
-      max-width: 25%;
-    }
+.contactMe-Wrapper fieldset::before {
+  left: 0;
+  width: 40%;
+  max-width: 25%;
+}
 
-    &::after {
-      right: 0;
-      width: 40%; /* Right half of the bottom border */
-      max-width: 25%;
-    }
+.contactMe-Wrapper fieldset::after {
+  right: 0;
+  width: 40%;
+  max-width: 25%;
+}
 
-    
-    .bottom-text {
-      text-align: center;
-      font-size: 2rem;
-      color: var(--white);
-      position: absolute;
-      bottom: -1.5rem; 
-      left: 50%;
-      transform: translateX(-50%);
-      
-      padding: 0 1rem;
-      
+.contactMe-Wrapper fieldset .bottom-text {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--white);
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 1rem;
+}
 
+.contactMe-Wrapper fieldset .bottom-text .links {
+  display: flex;
+  width: fit-content;
+  gap: 1rem;
+  padding: 1rem;
+}
 
-      .links {
-        display: flex;
-        width: fit-content;
-        gap: 1rem;
-        padding: 1rem;
-  
-        a {
-          height: 30px;
-        }
-      }
-    }
-  }
+.contactMe-Wrapper fieldset .bottom-text .links a {
+  height: 30px;
 }
