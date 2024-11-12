@@ -11,13 +11,16 @@
   --main-Text: #f7ca6b;
   --white: #ffffff;
 }
-*::after &*::before {
+
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -29,6 +32,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
 section {
   padding: 2rem;
 }
