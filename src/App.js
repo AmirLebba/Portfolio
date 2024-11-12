@@ -4,6 +4,7 @@ import About from "./About/About";
 import Skills from "./Skills/Skills.jsx";
 import Portfolio from "./Portfolio/Portfolio.jsx";
 import ContactMe from "./Contact/ContactMe.jsx";
+import Thanks from "./Thanks/Thanks";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Skills />
       <Portfolio />
       <ContactMe />
+      <Thanks />
     </div>
   );
 }

@@ -9,10 +9,11 @@
   -moz-box-shadow: 1px 15px 18px 0px rgba(0, 0, 0, 0.14);
   .Wraper {
     width: 100%;
-
+    height: fit-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     #Intro {
       h1 {
         word-spacing: 0.4rem;
@@ -45,6 +46,8 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      .image {
+      }
       .image img {
         mix-blend-mode: lighten;
         border-radius: 50%;
@@ -99,6 +102,34 @@
     }
     p {
       text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .About-Wrapper {
+    .Wraper {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 3rem;
+      #Intro {
+        #name label {
+          font-size: 1.8rem;
+        }
+      }
+      .profile {
+        width:100%;
+        height: max-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        .image img {
+          max-width: 100%;
+        }
+      }
     }
   }
 }

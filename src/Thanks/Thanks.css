@@ -1,0 +1,13 @@
+#wrapper {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  height: 200px;
+
+  h1 {
+    color: var(--main-Text);
+    font-size: calc(2rem + 1vw);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
