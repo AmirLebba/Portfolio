@@ -36,16 +36,16 @@ function ContactMe() {
         <div class="bottom-text">
           <div className="links">
             <a href="">
-              <FacebookLogo fill="#1877F2" width="34px" height="34px" />
+              <FacebookLogo fill="#1877F2" width="24px" height="24px" />
             </a>
             <a href="">
-              <LinkedIn fill="#0A66C2" width="34px" height="34px" />
+              <LinkedIn fill="#0A66C2" width="24px" height="24px" />
             </a>
             <a href="">
-              <Twitter fill="#1DA1F2" width="34px" height="34px" />
+              <Twitter fill="#1DA1F2" width="24px" height="24px" />
             </a>
             <a href="">
-              <WhatsApp fill="#25D366" width="34px" height="34px" />
+              <WhatsApp fill="#25D366" width="24px" height="24px" />
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@
   --fade: #646568;
   --main-Text: #f7ca6b;
   --white: #ffffff;
-  font-size: 20px;
+  font-size: calc(10px + 0.5vw);
 }
 
 *,

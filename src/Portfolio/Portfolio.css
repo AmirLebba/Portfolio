@@ -24,8 +24,9 @@
 }
 
 .portfolio-Wrapper .container .project {
-  width: 25ch;
-  height: 25ch;
+  
+  max-width: 25ch;
+  max-height: 25ch;
   background-color: var(--Skill-card-color);
   color: var(--white);
   text-align: center;
