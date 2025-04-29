@@ -1,11 +1,30 @@
-#navBar {
-  display: flex;
-  justify-content: center;
-  height: 25px;
-  background-color: var(--primary-color);
 
-  label {
-    color: white;
-    margin: 2rem;
-  }
+
+#navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+  z-index: 1000;
+}
+
+#links {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4rem;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.stik {
+  /* Your stick/styling if needed */
 }

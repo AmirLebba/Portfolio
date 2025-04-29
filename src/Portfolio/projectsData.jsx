@@ -12,6 +12,7 @@ const projectsData = [
     gitHubLink: "https://github.com/AmirLebba/freeCodeCamp-Survey-Form",
     description: "A simple HTML and CSS Survey Form",
     image: ProjectImg1,
+    technologies: ["HTML", "CSS"],
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const projectsData = [
     gitHubLink: "https://github.com/AmirLebba/interactive-card-details-form-main",
     description: "A simple Bank Card Validation using React",
     image: ProjectImg2,
+    technologies: ["React", "CSS"],
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const projectsData = [
     gitHubLink: "https://github.com/AmirLebba/Frontend_mentor_age_calculator",
     description: "A simple age calculator using HTML, CSS, and JavaScript",
     image: ProjectImg3,
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     id: 4,
@@ -36,8 +39,8 @@ const projectsData = [
     gitHubLink: "https://github.com/AmirLebba/chat-app-css-illustration",
     description: "An illustrative chat app created with HTML and CSS",
     image: ProjectImg,
+    technologies: ["HTML", "CSS"],
   },
-  // Add more projects as needed
 ];
 
 export default projectsData;

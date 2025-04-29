@@ -1,9 +1,6 @@
 import "./About.css";
 import ProfileImg from "../Accet/Capture.PNG";
-import FacebookLogo from "./logos/FacebookLogo.jsx";
-import Twiter from "./logos/Twiter.jsx";
-import LinkedIn from "./logos/LinkedIn.jsx";
-import WhatsApp from "./logos/WhatsApp.jsx";
+
 
 function About() {
   return (
@@ -23,24 +20,7 @@ function About() {
             <div className="image">
               <img src={ProfileImg} alt="Profile " />
             </div>
-            <div id="links">
-              <div className="stik"> </div>
-              <div id="facebook">
-                <FacebookLogo />
-              </div>
-              <div id="Twiter">
-                {" "}
-                <Twiter />{" "}
-              </div>
-              <div id="WhatsApp">
-                {" "}
-                <WhatsApp />{" "}
-              </div>
-              <div id="Linkedin">
-                {" "}
-                <LinkedIn />{" "}
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
